@@ -4,42 +4,30 @@
 html,
 body {
   margin: 0px;
-  background: url(symphony.png) repeat;
+  background: url('../img/symphony.png') repeat;
   /* Background image from http://subtlepatterns.com/ */
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: DimGray;
 }
 
-h1,
-h2,
-h3,
-h4 {
-
+#wrapper {
+  margin-top: 150px;
 }
 
 h1 {
   color: tomato;
 }
 
-h2 {
-  color: Salmon;
-}
-
-a.eMail {
-  color: DarkSeaGreen;
-  text-decoration: none;
-}
-
-h1.Name {
+h1.name {
   margin-bottom: 0px;
   border: 10px solid tomato;
   padding: 30px;
   display: inline;
 }
 
-#wrapper {
-  margin-top: 150px;
+h2 {
+  color: Salmon;
 }
 
 h2.title {
@@ -47,20 +35,25 @@ h2.title {
   padding: 30px;
 }
 
-.Phone_Number {
+.phone-number {
   color: DarkSeaGreen;
 }
 
+a.email {
+  color: DarkSeaGreen;
+  text-decoration: none;
+}
+
+.line-break {
+  border: 1px solid grey;
+  margin: 30px auto;
+  width: 50%;
+}
+
 /* Quote Styles */
-.inspirational-quote-goes-here {
+.quote {
   font-style: italic;
   font-size: 20px;
   margin-top: 50px;
   line-height: 30px;
-}
-
-.lineBreak {
-  border: 1px solid grey;
-  margin: 30px auto;
-  width: 50%;
 }
